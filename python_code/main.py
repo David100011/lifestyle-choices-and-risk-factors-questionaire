@@ -15,7 +15,7 @@ while True :
         continue
     if You_accept_terms_and_conditions == "2" :
             print ("SignUp")
-            print ("You accept the terms and conditions. Please enter SignUp again.")
+            print ("You accept the terms and conditions. Please enter SignUp again, this is to verify you understand your agreement.")
             
     LogIn_SignUp = input("1) SignUp 2) Login ")
     if LogIn_SignUp == "1":  
@@ -67,10 +67,11 @@ while True :
     Do_you_smoke = input (" 1) No / 2) Yes ")
     if Do_you_smoke == "1":
         break
+        break
 #score 0 and move onto next question
     if Do_you_smoke == "2" :
         print ("How many per day")
-        Ciggerettes_Per_Day = input (" 1)0 / 2)1-10 / 3) 10+ ")
+        Ciggerettes_Per_Day = input (" 1)1 / 2)2-10 / 3) 10+ ")
     break
 #score 0, 1, 2 based on answer
 while True :     
@@ -103,18 +104,47 @@ while True :
     break
     
 # sectioon 2 will deal with heart/diabetes
-    
+
+print ("")
+print ("")
+print ("")
+print ("This section will deal with Diabtes and Coronary Artery Disease")
+
+
 while True: 
+    print (" Do you have Type 1 Diabtes?")
+    Do_you_Have_Type1 = input ("1) No / 2 Yes")
+    if Do_you_Have_Type1 == "1":
+        break
+    break
     
-    print ("Do you consume sugary drinks?")
+    if Do_you_Have_Type1 == "2" :
+        break
+
+    
+else: print ("Do You have Type2 diabetes?")
+Do_You_have_Type2 = input ("1) No/ 2) Yes")
+if Do_You_have_Type2 == "1" :
+    print ("Have you been ever been checked for diabtes?")
+    Have_you_ever_been_checked_for_Type2 = input ("1 No / 2) Yes ")
+    if Have_you_ever_been_checked_for_Type2 == "1" :
+        print ("")
+        print ("")
+        print ("Recommended to get checked as a precaution. Continue to answer questions to see if you are an at risk candidate")
+        
+while True:
+    print ("If you do have diabtetes do you continue to use sugar?")
+    if Do_You_have_Type2 == "2" :
+        print ("Do you consume sugary drinks?")
     Do_you_consume_sugary_drinks = input ("1) No / 2) Yes ")
     if Do_you_consume_sugary_drinks == "1" :
-        break
+        break 
+    
+while True :
     if Do_you_consume_sugary_drinks == "2" :
-        print ("How often do you consume them?")
-    How_often_do_you_consume_them = input ("1) Less thena once a week / 2)/ More than once a week 3)/ Daily ")
-    break
-#add score
+            print ("How often do you consume them?")
+            How_often_do_you_consume_them = input ("1) Less thena once a week / 2)/ More than once a week 3)/ Daily ")
+
 while True :  
     print ("Do you consume sugary snacks?")
     Do_you_consume_sugary_snacks = input ("1) No/ 2) Yes ")
@@ -125,15 +155,3 @@ while True :
         How_often_do_you_consume_them = input ("1) Less then a once a week/ 2)/ More than once a week 3)/ Daily ") 
         break
         break  
-        
-
-
-    
-        
-     
-         
-        
-
-
-
-
