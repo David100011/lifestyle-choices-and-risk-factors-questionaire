@@ -423,4 +423,4 @@ while True :
         print("************************************")
             
             #
-            #When the user gets to teh end their information will be saved and can be views uopon their next login. The results will read for example your lung health is poor or your lung health is good.
+            #When the user gets to the end their information will be saved and can be views uopon their next login. The results will read for example your lung health is poor or your lung health is good.
